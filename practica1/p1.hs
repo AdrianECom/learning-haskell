@@ -25,6 +25,7 @@ aumentar2 x = cuadrado(x+1)
 sucesor :: Integer -> Integer
 sucesor = (+1)
 
+-- composición de funciones
 aumentar3 :: Integer -> Integer
 aumentar3 = cuadrado.sucesor
 
